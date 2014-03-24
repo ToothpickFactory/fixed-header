@@ -1,0 +1,8 @@
+.demoView{
+    margin: 50px auto;
+	display: table;
+}
+
+.demoView h3{
+	text-align: center;
+}

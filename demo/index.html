@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- jQuery Lib-->
+        <script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
+        
+		<!-- CSS -->
+		<link href="css/fx.css" rel="stylesheet" type="text/css" >
+		<link href="css/demo.css" rel="stylesheet" type="text/css" >
+    </head>
+    <body>
+		<div class="demoView">
+			<h3>Fixed ~ for tables</h3>
+			<p style="text-align: center">
+			"Fixed"(fx) is a light weight javascript plug-in to cause a header and footer elements to stay fixed.<br>
+			Also included are a few preset styling themes that can be applied to a table. 
+			</p>
+		</div>
+		
+		<div class="demoView">
+			<h3>NuSkin Blue ~ .nsb</h3>
+			<table class='fx nsb'>
+				<thead>
+					<tr><th>Name</th><th>ID</th><th>Favorite Color</th></tr>
+				</thead>
+				<tbody>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td></tr>
+				</tbody>
+				<tfoot>
+					<tr><th>Name</th><th>ID</th><th>Total</th></tr>
+				</tfoot>
+			</table>
+		</div>
+		
+		<div class="demoView">
+			<h3>Riot Green ~ .rtg</h3>
+			<table  class='fx rtg'>
+				<thead>
+					<tr><th>Name</th><th>ID</th><th>Favorite Color</th><th>Favorite Color</th></tr>
+				</thead>
+				<tbody>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td><td>Blue</td></tr>
+				</tbody>
+				<tfoot>
+					<tr><th>Name</th><th>ID</th><th>Total</th><th>Total</th></tr>
+				</tfoot>
+			</table>
+		</div>
+		
+		
+		<div class="demoView">
+			<h3>Fire Ball Red ~ .fbr</h3>
+			<table class='fx fbr'>
+				<thead>
+					<tr><th>Name</th><th>ID</th><th>Favorite Color</th><th>Favorite Color</th></tr>
+				</thead>
+				<tbody>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td><td>Blue</td></tr>
+					<tr><td>Jim</td><td>00001</td><td>Blue</td><td>Blue</td></tr>
+				</tbody>
+				<tfoot>
+					<tr><th>Name</th><th>ID</th><th>Total</th><th>Total</th></tr>
+				</tfoot>
+			</table>
+		</div>
+		
+		<div class="demoView">
+			<h3>How to Use</h3>
+			<ul>
+				<li>Include JQuery: <span><span style=color:red>&lt;script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"&gt;</span><span style=color:red>&lt;/script&gt;</span></span></li>
+				<li>Include fx.js: <span><span style=color:red>&lt;script src="path/to/fx.js" type="text/javascript"&gt;</span><span style=color:red>&lt;/script&gt;</span></span></li>
+				<li>Include fx.css: <span><span style=color:red>&lt;link href="path/to/fx.css" rel="stylesheet" type="text/css" &gt;</span></span></li>
+				<li> Add in a table that has all these elements: <br>
+				
+					<span style=color:red>&lt;table&gt;</span><br>
+						&emsp;<span style=color:red>&lt;thead&gt;</span><br>
+							&emsp;&emsp;<span style=color:red>&lt;tr&gt;</span><br>
+								&emsp;&emsp;&emsp;<span style=color:red>&lt;th&gt;</span><span style=color:red>&lt;/th&gt;</span><br>
+							&emsp;&emsp;<span style=color:red>&lt;/tr&gt;</span><br>
+						&emsp;<span style=color:red>&lt;/thead&gt;</span><br>
+						&emsp;<span style=color:red>&lt;tbody&gt;</span><br>
+							&emsp;&emsp;<span style=color:red>&lt;tr&gt;</span><br>
+								&emsp;&emsp;&emsp;<span style=color:red>&lt;td&gt;</span><span style=color:red>&lt;/td&gt;</span><br>
+							&emsp;&emsp;<span style=color:red>&lt;/tr&gt;</span><br>
+						&emsp;<span style=color:red>&lt;/tbody&gt;</span><br>
+						&emsp;<span style=color:red>&lt;tfoot&gt;</span><br>
+							&emsp;&emsp;<span style=color:red>&lt;tr&gt;</span><br>
+								&emsp;&emsp;&emsp;<span style=color:red>&lt;th&gt;</span><span style=color:red>&lt;/th&gt;</span><br>
+							&emsp;&emsp;<span style=color:red>&lt;/tr&gt;</span><br>
+						&emsp;<span style=color:red>&lt;/tfoot&gt;</span><br>
+					<span style=color:red>&lt;/table&gt;</span><br>
+				
+				</li>
+				<li> Insert onto the <strong style="color:red;">table</strong> tag: class="fx"</li>
+				<li> Insert into that class a style of your choice (nsb, rtg, fbr): class="fx nsb"</li>
+			</ul>
+		</div>
+		
+		<!-- JS -->
+		<script src="js/fx.js" type="text/javascript"></script>
+		
+		
+		<!-- Git hub Ribbon -->
+			<a href="https://github.com/ToothpickFactory/toMoney"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github-camo.global.ssl.fastly.net/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
+		<!-- End Ribbon -->
+		
+    </body>
+</html>
